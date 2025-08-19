@@ -18,22 +18,23 @@ Designed for undergraduate students with basic programming skills (e.g., Python)
 ## Schedule
 The course is structured into modules, each focusing on key NLP concepts and techniques. Below is the schedule with corresponding Jupyter notebooks and exercises:
 
-| Module | Topic | Description |
-|--------|-------|-------------|
-| 1 | **Text Preprocessing & Feature Extraction** | Learn to identify distinctive terms using statistical tests. |
-| 2 | **Sentiment Analysis with Dictionaries** | Plot sentiment over time using human-defined dictionaries. |
-| 3 | **Text Classification** | Gather data, engineer features, analyze feature weights, and explore hyperparameters for text classification. |
-| 4 | **Text Regression** | Apply linear regression with L1/L2 regularization for tasks like box office prediction. |
-| 5 | **Statistical Testing** | Estimate confidence intervals and perform hypothesis testing. |
-| 6 | **Word Embeddings** | Build and explore high-dimensional, sparse word representations using distributional hypothesis and TF-IDF scaling. Implement semantic orientation methods. |
-| 7 | **Neural Networks for NLP** | Explore MLP, CNN, LSTM, and attention mechanisms for text classification and document classification. |
-| 8 | **Annotation Metrics** | Calculate inter-annotator agreement using Cohen's kappa and Krippendorff's alpha. |
-| 9 | **WordNet & Word Sense Disambiguation** | Explore WordNet synsets, implement Lesk algorithm, and retrofit word vectors. |
-| 10 | **POS Tagging & Keyphrase Extraction** | Understand Penn Treebank POS tags and extract keyphrases using TF-IDF and POS filtering. |
-| 11 | **Named Entity Recognition (NER)** | Extract social networks, perform Twitter NER with BiLSTM, and resolve toponyms for visualization. |
-| 12 | **Syntactic Analysis** | Use dependency parsing to analyze actions and objects associated with characters. |
-| 13 | **Coreference Resolution** | Install neuralcoref and generate timelines from Wikipedia biographies. |
-| 14 | **Topic Modeling** | Discover themes in movie summaries using topic modeling. |
+| Week | Topics | Description | Related Folders |
+|------|---------------------|-----------------|-----------------|
+| **1** | Words, Dictionaries, and Distinctive Terms | Learn to identify distinctive terms using statistical tests. Plot sentiment over time using human-defined dictionaries. | `2. words/`<br>`3. distinctive_terms/`<br>`4. dictionaries/` |
+| **2** | Classification | Gather data, engineer features, analyze feature weights, and explore hyperparameters for text classification. |`5. classification/` |
+| **3** | Regression and Evaluation / Measurement / Testing | Apply linear regression with L1/L2 regularization for tasks like box office prediction. Estimate confidence intervals and perform hypothesis testing. | `6. text_regression/`<br>`7 & 8. tests/` |
+| **4** | Computational Semantics | Build and explore high-dimensional, sparse word representations using distributional hypothesis and TF-IDF scaling. Implement semantic orientation methods. | `9 & 10. embeddings/` |
+| **5** | Neural Networks I – Word Embeddings & MLP | Explore MLP for text classification and document classification. | `11 & 12. neural/` |
+| **6** | Neural Networks II – CNN | Explore CNN for text classification and document classification. | `13. neural/` |
+| **7** | Neural Networks III – LSTM & Attention | Explore LSTM, and attention mechanisms for text classification and document classification. | `14. neural/` |
+| **8** | Data Annotation | Calculate inter-annotator agreement using Cohen's kappa and Krippendorff's alpha. | `15. annotation/` |
+| **9** | WordNet | Explore WordNet synsets, implement Lesk algorithm, and retrofit word vectors. | `16. wordnet/` |
+| **10** | POS Tagging | Understand Penn Treebank POS tags and extract keyphrases using TF-IDF and POS filtering. | `18. pos/` |
+| **11** | Named Entity Recognition (NER) | Extract social networks, perform Twitter NER with BiLSTM, and resolve toponyms for visualization. | `19. ner/` |
+| **12** | Syntactic Analysis of Dependencies | Use dependency parsing to analyze actions and objects associated with characters. | `22. syntax/` |
+| **13** | Coreference | Install neuralcoref and generate timelines from Wikipedia biographies. | `23. coref/` |
+| **14** | Clustering | Discover themes in movie summaries using topic modeling. | `26. clustering/` |
+
 
 ---
 
